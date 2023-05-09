@@ -1,0 +1,34 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+@import '../../assets/scss/base';
+
+.base-module{
+    // background-color: $color-primary;
+    color: $color-black;
+    padding: $spacer-3;
+
+    .heading-div{
+        text-align: center;
+        color: $color-primary;
+        letter-spacing: 1px;
+    }
+    .heading{
+        font-size: $font-heading;
+        font-weight: 700;
+        padding: $spacer-1 $spacer-0;
+    }
+    .content{
+        font-size: $font-sm;
+        font-weight: 400;
+        padding-bottom: $spacer-4;
+    }
+    .chart-base{
+        padding: $spacer-2;
+        overflow: auto;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

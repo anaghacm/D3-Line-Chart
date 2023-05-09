@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/scss/style.scss';
+
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    background-color: steelblue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: none;
+    opacity: .75;
+}
